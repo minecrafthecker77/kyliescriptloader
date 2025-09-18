@@ -1,0 +1,38 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  background-image: url(https://wallpapercave.com/uwp/uwp4613766.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+
+  background-position: center;
+}
+
+.heading1 {
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+.hacker {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.post-summary {
+  color: white;
+  position: relative;
+  backdrop-filter: blur(10px);
+  bottom: 25vh;
+  text-align: center;
+
+}

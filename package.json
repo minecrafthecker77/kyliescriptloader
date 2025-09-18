@@ -1,0 +1,15 @@
+{
+  "name": "kyliescriptloader",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "live-server .",
+    "build": "tsc",
+    "prod": "pm2 start live-server --name 'Kylie Script Loader | Frontend' -- . -p 8080 --cors && pm2 save && pm2 start ../../backend/kylie/app.py --name 'Kylie Script Loader | Backend' && pm2 save",
+    "stop": "pm2 stop all && pm2 delete all"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
