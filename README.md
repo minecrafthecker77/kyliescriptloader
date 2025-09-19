@@ -1,4 +1,4 @@
-<div>
+u<div>
 <h1>Kylie Script Loader | Welcome</h1>
 <p>Kylie Script Loader - <strong>The future of minecraft cheating.</strong></p><br><br>
 <h1>How to use</h1>
@@ -12,6 +12,6 @@
 <h2>Install dependencies</h2>
 <code>yarn install</code>
 <h2>Run the server</h2><br>
-<code>yarn start</code><br>
+<code>yarn dev</code><br>
 </div>
 
