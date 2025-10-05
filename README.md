@@ -1,6 +1,5 @@
 <div>
 <h1>Kylie Script Loader | Welcome</h1>
-<p><em>due to shai-halud, this repo has been shut down for the meantime</em></p>
 <p>Kylie Script Loader - <strong>The future of minecraft cheating.</strong></p><br><br>
 <h1>How to use</h1>
 <p>This website uses yarn and pm2, it is required for the loader to work</p>

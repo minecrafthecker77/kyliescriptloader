@@ -18,10 +18,15 @@ body {
 }
 
 
-.hacker {
+
+.loginClick {
+  color: white;
   justify-content: center;
   text-align: center;
-  color: white;
-  display: flex;
-  bottom: 10%;
+  box-shadow: 5px 5px 15px lightblue;
+  position: relative;
+  left: 60vh;
+  top: 20vh;
+  filter: drop-shadow(0 0 0.75rem lightblue);
+  width: 300px;
 }

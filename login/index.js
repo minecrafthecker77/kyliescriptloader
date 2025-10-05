@@ -1,5 +1,7 @@
 const isloggedIn = false;
 
+
+
 function dashboard() {
     // transfers and sets isLoggedIn to true
     if(window.location.href == "/login") {
@@ -13,3 +15,4 @@ function dashboard() {
         console.error("Cant be sent, error");
     }
 }
+
