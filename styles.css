@@ -2,37 +2,26 @@ body {
   font-family: 'Courier New', Courier, monospace;
   background-color: black;
   background-image: url(https://wallpapercave.com/uwp/uwp4613766.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
-
-
   background-position: center;
 }
 
 .heading1 {
   color: white;
   display: flex;
-  text-align: center;
+  text-align: bottom;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
+  backdrop-filter: blur(10px);
   border-radius: 10px;
 }
 
 
 .hacker {
+  justify-content: center;
+  text-align: center;
   color: white;
   display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.post-summary {
-  color: white;
-  position: relative;
-  backdrop-filter: blur(10px);
-  bottom: 25vh;
-  text-align: center;
-
+  bottom: 10%;
 }
