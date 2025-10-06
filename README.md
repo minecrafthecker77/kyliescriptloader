@@ -3,6 +3,7 @@
 <p>Kylie Script Loader - <strong>The future of minecraft cheating.</strong></p><br><br>
 <h1>How to use</h1>
 <p>This website uses yarn and pm2, it is required for the loader to work</p>
+<p>electron app coming soon?<p>
 <code>bun add yarn pm2</code>
 <code>pnpm -g install yarn pm2 </code><br>
 <h2>Clone the repo</h2>
