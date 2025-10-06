@@ -1,0 +1,17 @@
+.main {
+  color: white;
+  box-shadow: 10px 0px 10px blue;
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.paragraph {
+  font-size: 30px;
+  backdrop-filter: blur(8px);
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}

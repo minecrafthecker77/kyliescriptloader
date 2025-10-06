@@ -9,25 +9,16 @@
 }
 
 body {
-  background-image: url(https://wallpapercave.com/uwp/uwp4613766.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
   animation: fadeIn 2s ease-in;
   animation-fill-mode: forwards;
 }
 
-
 .login-container {
   color: white;
-  justify-content: center;
   text-align: center;
   box-shadow: 5px 5px 15px lightblue;
-  position: relative;
-  left: 60vh;
-  top: 20vh;
   filter: drop-shadow(0 0 0.75rem lightblue);
   width: 300px;
-
+  margin: 20vh auto;
+  padding: 20px;
 }

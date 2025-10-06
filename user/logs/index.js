@@ -1,1 +1,1 @@
-import isLoggedIn from "../../login/index"
+import isLoggedIn from '../../login/index';

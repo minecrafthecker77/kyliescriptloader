@@ -1,0 +1,21 @@
+.main-paragraph {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-explanation {
+  font-weight: bold;
+  color: white;
+  filter: drop-shadow(5px 10px 10px blue);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.kylie {
+  font-weight: bold;
+  color: white;
+  filter: drop-shadow(5px 10px 10px blue);
+  text-align: center;
+  margin-top: 100px;
+  font-size: medium;
+}
