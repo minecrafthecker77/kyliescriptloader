@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    background-image: url(https://wallpapercave.com/uwp/uwp4613766.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+    filter: drop-shadow(0 0 5px rgba(0, 123, 255, 0.8)); 
+}

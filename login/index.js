@@ -1,18 +1,33 @@
-const isloggedIn = false;
+let isloggedIn = false;
 
+document.addEventListener('DOMContentLoaded', function() {
+    const pw = document.querySelector('.pw'); 
+    const user = document.querySelector('.user');
 
-
-function dashboard() {
-    // transfers and sets isLoggedIn to true
-    if(window.location.href == "/login") {
-        isloggedIn = true;
-        window.location.href("/dashboard", () => {
-            console.log("Usser sent to dashboard sucessfully")
-        })
-    } else {
-
-        
-        console.error("Cant be sent, error");
+    if (!pw || !user) {
+        return;
     }
-}
 
+    function dashboard() {
+        if(window.location.pathname == "/login/") { 
+            isloggedIn = true;
+            window.location.href = "../dashboard/index.html"; 
+        } else {
+            console.error("Cant be sent");
+        }
+    }
+
+    function main() {
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                if (pw.value.trim() === "" || user.value.trim() === "") {
+                    alert("Please enter both a username and password.");
+                } else {
+                    dashboard();
+                }
+            }
+        });
+    }
+
+    main();
+});
