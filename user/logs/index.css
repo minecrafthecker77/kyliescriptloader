@@ -1,0 +1,40 @@
+.main {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.logs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.log-section {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 45%;
+}
+
+.log-section h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.log-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.log-section ul li {
+  padding: 5px 0;
+}
+
+#server-status {
+  font-weight: bold;
+}

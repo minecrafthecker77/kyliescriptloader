@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>Kylie Script Loader | Upload Scripts</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <script src="index.js"></script>
+    <script src="../../notification.js"></script>
+    <script src="../../wallpaper.js"></script>
+</head>
+<body>
+    <div id="notification-container"></div>
+    <nav class="main-navbar">
+        <div class="logo"><a href="/">Kylie Script Loader</a></div>
+        <ul class="nav-links">
+          <li><a href="/dashboard/manage">Manage Scripts</a></li>
+          <li><a href="/dashboard/download/">Download</a></li>
+          <li><a href="/user/logs">View Logs</a></li>
+          <li><a href="/ast/">A Special Thanks</a></li>
+          <li><a href="/news/">News</a></li>
+        </ul>
+      </nav>
+    <div class="upload-main">
+        <h1>Here you can upload your scripts to the cloud for people to download.</h1>
+    </div>
+
+    <div class="upload-container">
+        <h2>Upload New Script</h2>
+        <form id="upload-form">
+            <input type="file" id="script-file" accept=".jsl, .asl, .ssl, .js, .java" required>
+            <textarea id="script-description" placeholder="Enter a description for your script..." required></textarea>
+            <button type="submit">Upload Script</button>
+        </form>
+    </div>
+
+    <div class="uploaded-scripts-container">
+        <h2>Your Uploaded Scripts</h2>
+        <ul id="uploaded-scripts-list">
+            <!-- Uploaded scripts will be listed here -->
+        </ul>
+    </div>
+</body>

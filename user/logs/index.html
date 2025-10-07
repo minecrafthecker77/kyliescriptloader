@@ -3,22 +3,51 @@
   <title>Kylie Script Loader | Logs</title>
   <link rel="stylesheet" href="../../styles.css" />
   <link rel="stylesheet" href="./index.css" />
+  <script src="index.js"></script>
+  <script src="../../wallpaper.js"></script>
 </head>
 
-<nav class="main-navbar">
-  <div class="logo"><a href="/">Kylie Script Loader</a></div>
-  <ul class="nav-links">
-    <li><a href="/dashboard/manage">Manage Scripts</a></li>
-    <li><a href="/dashboard/download/">Download</a></li>
-    <li><a href="/user/logs">View Logs</a></li>
-    <li><a href="#">A Special Thanks</a></li>
-    <li><a href="/news/">News</a></li>
-    <li><a href="/dashboard/">Back to dashboard</a></li>
-  </ul>
-</nav>
-
 <body>
+  <nav class="main-navbar">
+    <div class="logo"><a href="/">Kylie Script Loader</a></div>
+    <ul class="nav-links">
+      <li><a href="/dashboard/manage">Manage Scripts</a></li>
+      <li><a href="/dashboard/download/">Download</a></li>
+      <li><a href="/user/logs">View Logs</a></li>
+      <li><a href="/ast/">A Special Thanks</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/dashboard/">Back to dashboard</a></li>
+    </ul>
+  </nav>
+
   <div class="main">
-    <h1></h1>
+    <h1>System Logs</h1>
+  </div>
+
+  <div class="logs-container">
+    <div class="log-section">
+      <h2>Downloaded Files</h2>
+      <ul id="download-logs"></ul>
+    </div>
+
+    <div class="log-section">
+      <h2>Login Attempts</h2>
+      <ul id="login-logs"></ul>
+    </div>
+
+    <div class="log-section">
+      <h2>Server Logs</h2>
+      <ul id="server-logs"></ul>
+    </div>
+
+    <div class="log-section">
+      <h2>Server Status</h2>
+      <p id="server-status">UNKNOWN</p>
+    </div>
+
+    <div class="log-section">
+      <h2>CPU Status</h2>
+      <p id="cpu-status">Loading...</p>
+    </div>
   </div>
 </body>

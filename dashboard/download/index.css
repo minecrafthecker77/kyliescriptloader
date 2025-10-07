@@ -1,0 +1,44 @@
+.main {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.download-box,
+.fortnite-download {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, filter 0.3s;
+}
+
+button:hover {
+  animation: fadeIn 2s ease-in-out;
+  background-color: skyblue;
+  color: black;
+}
+
+@keyframes fadeIn {
+  0% {
+    filter: drop-shadow(0 0 0 blue);
+    filter: brightness(100%);
+  }
+  50% {
+    filter: drop-shadow(4px 10px 5px blue);
+    filter: brightness(50%);
+  }
+  100% {
+    filter: drop-shadow(10px 10px 10px blue);
+    filter: brightness(100%);
+  }
+}

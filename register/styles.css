@@ -1,0 +1,24 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: fadeIn 2s ease-in;
+  animation-fill-mode: forwards;
+}
+
+.register-container {
+  color: white;
+  text-align: center;
+  box-shadow: 5px 5px 15px lightblue;
+  filter: drop-shadow(0 0 0.75rem lightblue);
+  width: 300px;
+  margin: 20vh auto;
+  padding: 20px;
+}

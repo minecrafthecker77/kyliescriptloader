@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "http-server": "^14.1.1",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "react": "^19.2.0"
   },
   "devDependencies": {
     "prettier": "^3.6.2"

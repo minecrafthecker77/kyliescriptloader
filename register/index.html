@@ -1,0 +1,45 @@
+<!doctype html>
+
+<head>
+  <title>Kylie Script Loader | Register</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+</head>
+
+<body>
+  <div id="notification-container"></div>
+  <div class="register-container">
+    <h2>Register for Kylie Script Loader</h2>
+
+    <form id="register-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" class="user" required />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        class="pw"
+        required
+      />
+      <br />
+      <label for="confirm-password">Confirm Password:</label>
+      <input
+        type="password"
+        id="confirm-password"
+        name="confirm-password"
+        class="confirm-pw"
+        required
+      />
+      <br />
+      <button type="submit" class="button">Register</button>
+    </form>
+    <p>Already have an account? <a href="/login/">Login here</a></p>
+  </div>
+  <script src="../notification.js"></script>
+  <script src="../wallpaper.js"></script>
+</body>

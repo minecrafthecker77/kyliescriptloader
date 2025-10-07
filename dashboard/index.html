@@ -6,10 +6,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kylie Script Loader | Dashboard</title>
-  <script src="./dashboard/index.js"></script>
+  <script src="./index.js"></script>
+  <script src="../notification.js"></script>
+  <script src="../wallpaper.js"></script>
 </head>
 
 <body>
+  <div id="notification-container"></div>
   <nav class="main-navbar">
     <div class="logo"><a href="/">Kylie Script Loader</a></div>
     <ul class="nav-links">
@@ -27,5 +30,29 @@
       Welcome to the Kylie Script Loader dashboard. Here you can manage your
       scripts and settings.
     </p>
+
+    <div class="dashboard-section">
+      <a href="/dashboard/account" style="text-decoration: none; color: inherit;">
+        <h2>Account Settings</h2>
+        <p>Username: <span id="dashboard-username">Guest</span></p>
+        <p>Email: <span id="dashboard-email">guest@example.com</span></p>
+        <button id="edit-account-btn">Edit Account</button>
+      </a>
+    </div>
+
+    <div class="dashboard-section">
+      <h2>Wallpaper Changer</h2>
+      <label for="wallpaper-url">Custom Wallpaper URL:</label>
+      <input type="text" id="wallpaper-url" placeholder="Enter image URL" />
+      <button id="set-wallpaper-btn">Set Wallpaper</button>
+      <button id="reset-wallpaper-btn">Reset Wallpaper</button>
+    </div>
+
+    <div class="dashboard-section">
+      <h2>User Stats</h2>
+      <p>Total Scripts Uploaded: <span id="total-scripts">0</span></p>
+      <p>Total Likes Received: <span id="total-likes">0</span></p>
+      <p>Most Liked Script: <span id="most-liked-script">N/A</span></p>
+    </div>
   </div>
 </body>
